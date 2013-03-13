@@ -1,0 +1,46 @@
+---
+abstract: 'Skip some test files'
+author:
+  - 'David Golden <dagolden@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 0
+  File::Find: 0
+  File::Spec::Functions: 0
+  File::Temp: 0
+  File::pushd: 0
+  List::Util: 0
+  Test::FailWarnings: 0
+  Test::More: 0.96
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921'
+license: apache
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: TAP-Harness-Restricted
+no_index:
+  directory:
+    - t
+    - xt
+    - examples
+    - corpus
+  package:
+    - DB
+provides:
+  TAP::Harness::Restricted:
+    file: lib/TAP/Harness/Restricted.pm
+    version: 0.001
+requires:
+  Path::Tiny: 0
+  TAP::Harness: 0
+  parent: 0
+  perl: 5.008001
+  strict: 0
+  warnings: 0
+resources:
+  bugtracker: https://github.com/dagolden/tap-harness-restricted/issues
+  homepage: https://metacpan.org/release/TAP-Harness-Restricted
+  repository: git://github.com/dagolden/tap-harness-restricted.git
+version: 0.001
