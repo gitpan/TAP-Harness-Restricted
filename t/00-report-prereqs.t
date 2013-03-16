@@ -20,9 +20,9 @@ my @modules = qw(
   TAP::Harness
   Test::FailWarnings
   Test::More
-  parent
   perl
   strict
+  superclass
   warnings
 );
 

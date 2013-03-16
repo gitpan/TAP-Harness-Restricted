@@ -31,16 +31,16 @@ no_index:
 provides:
   TAP::Harness::Restricted:
     file: lib/TAP/Harness/Restricted.pm
-    version: 0.001
+    version: 0.002
 requires:
   Path::Tiny: 0
-  TAP::Harness: 0
-  parent: 0
+  TAP::Harness: 3.18
   perl: 5.008001
   strict: 0
+  superclass: 0
   warnings: 0
 resources:
   bugtracker: https://github.com/dagolden/tap-harness-restricted/issues
   homepage: https://metacpan.org/release/TAP-Harness-Restricted
   repository: git://github.com/dagolden/tap-harness-restricted.git
-version: 0.001
+version: 0.002

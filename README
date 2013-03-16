@@ -2,7 +2,7 @@ NAME
     TAP::Harness::Restricted - Skip some test files
 
 VERSION
-    version 0.001
+    version 0.002
 
 SYNOPSIS
         # command line

@@ -30,12 +30,12 @@ my %WriteMakefileArgs = (
   "NAME" => "TAP::Harness::Restricted",
   "PREREQ_PM" => {
     "Path::Tiny" => 0,
-    "TAP::Harness" => 0,
-    "parent" => 0,
+    "TAP::Harness" => "3.18",
     "strict" => 0,
+    "superclass" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

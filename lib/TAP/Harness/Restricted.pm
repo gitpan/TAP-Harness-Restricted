@@ -4,9 +4,9 @@ use warnings;
 
 package TAP::Harness::Restricted;
 # ABSTRACT: Skip some test files
-our $VERSION = '0.001'; # VERSION
+our $VERSION = '0.002'; # VERSION
 
-use parent 'TAP::Harness';
+use superclass 'TAP::Harness' => 3.18;
 use Path::Tiny;
 
 sub aggregate_tests {
@@ -52,7 +52,7 @@ TAP::Harness::Restricted - Skip some test files
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
